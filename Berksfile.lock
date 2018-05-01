@@ -1,0 +1,7 @@
+DEPENDENCIES
+  snmp
+    path: .
+    metadata: true
+
+GRAPH
+  snmp (0.1.4)
