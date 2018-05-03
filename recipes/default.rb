@@ -27,7 +27,7 @@
 case node['platform']
 when 'windows'
   include_recipe 'snmp::_windows'
-when 'redhat'
+when 'redhat', 'rhel'
   include_recipe 'snmp::_rhel'
 when 'centos'
   include_recipe 'snmp::_rhel'
