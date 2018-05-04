@@ -4,7 +4,7 @@ maintainer_email 'twimprin@xula.edu'
 license 'MIT'
 description 'Installs/Configures snmp'
 long_description 'Installs/Configures snmp'
-version '0.1.9'
+version '0.1.10'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
