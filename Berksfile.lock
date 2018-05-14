@@ -4,4 +4,4 @@ DEPENDENCIES
     metadata: true
 
 GRAPH
-  snmp (0.1.9)
+  snmp (0.1.10)

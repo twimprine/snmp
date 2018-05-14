@@ -21,6 +21,6 @@ suites:
     attributes: {}
     name: default
     run_list: 
-      - "recipe[snmp::default]"
+      - "recipe[xula_snmp::default]"
 verifier: 
   name: inspec

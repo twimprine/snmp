@@ -26,23 +26,23 @@
 
 case node['platform']
 when 'windows'
-  include_recipe 'snmp::_windows'
+  include_recipe 'xula_snmp::_windows'
 when 'redhat', 'rhel'
-  include_recipe 'snmp::_rhel'
+  include_recipe 'xula_snmp::_rhel'
 when 'centos'
-  include_recipe 'snmp::_rhel'
+  include_recipe 'xula_snmp::_rhel'
 when 'ubuntu'
-  include_recipe 'snmp::_ubuntu'
+  include_recipe 'xula_snmp::_ubuntu'
 when 'AIX'
-  include_recipe 'snmp::_aix'
+  include_recipe 'xula_snmp::_aix'
 when 'debian'
-  include_recipe 'snmp::_debian'
+  include_recipe 'xula_snmp::_debian'
 when 'MAC_OS_X'
-  include_recipe 'snmp::_OSX'
+  include_recipe 'xula_snmp::_OSX'
 when 'solaris', 'solaris2'
-  include_recipe 'snmp::_solaris'
+  include_recipe 'xula_snmp::_solaris'
 else
   log "This platform is not supported: #{node['platform']} - #{node['platform_version']}"
 end
 
-include_recipe 'snmp::default'
+include_recipe 'xula_snmp::default'

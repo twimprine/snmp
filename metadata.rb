@@ -1,4 +1,4 @@
-name 'snmp'
+name 'xula_snmp'
 maintainer 'Thomas Wimprine'
 maintainer_email 'twimprin@xula.edu'
 license 'MIT'
