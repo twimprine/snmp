@@ -1,7 +1,7 @@
 DEPENDENCIES
-  snmp
+  xula_snmp
     path: .
     metadata: true
 
 GRAPH
-  snmp (0.1.10)
+  xula_snmp (0.1.10)
